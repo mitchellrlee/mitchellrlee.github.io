@@ -48,9 +48,11 @@
       </div>
  <div class="w3-row-padding w3-padding-64 w3-theme-l1" id="recent">
   <div class="w3-card-4 w3-white">
-<div class="w3-third ">
-
-      <a href="#fullimage1"><img src="mitchellrlee.github.io/images/shopify_2.PNG" alt="Shopify Image 2" style="width:500px;height: 400px;" class="w3-round"></a>
+<div class="w3-third ">  
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-xlarge w3-theme w3-hover-teal" title="Go To W3.CSS"><img src="mitchellrlee.github.io/images/shopify_2.PNG" alt="Shopify Image 2" style="width:500px;height: 400px;" class="w3-round"></button>
+  </div>
+     
+      <img src="mitchellrlee.github.io/images/shopify_2.PNG" alt="Shopify Image 2" style="width:500px;height: 400px;" class="w3-round">
     </div>
 
 <div class="w3-third ">
@@ -63,15 +65,22 @@
 </div>
 </div>
 
-  <div id="fullimage1" class="w3-modal">
-    <div class="w3-modal-content">
-      <div class="w3-container">
-        <span onclick="document.getElementById('fullimage1').style.display='none'" class="w3-button w3-display-topright">&times;</span
-       <img src="mitchellrlee.github.io/images/shopify_2.PNG" style="width: 1300px; height: 600px;" class="w3-round">
-      </div>
-    </div>
+
+
+<!-- Modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-top">
+    <header class="w3-container w3-teal w3-display-container"> 
+      <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-teal w3-display-topright"><i class="fa fa-remove"></i></span>
+      <img src="mitchellrlee.github.io/images/shopify_2.PNG" style="width: 1300px; height: 600px;" class="w3-round">
+    </header>
+
   </div>
 </div>
+
+
+
+
   
 <footer class="w3-container w3-padding-32 w3-theme-d1 w3-center">
    <p>&copy; 2017 Mitchell R. Lee</p>
